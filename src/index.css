@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Josefin+Slab:wght@200&family=Montserrat:ital,wght@0,400;0,500;1,300&family=Permanent+Marker&display=swap');
+body {
+  
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  
+  /* font-family: 'Permanent Marker', cursive; */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+:root{
+
+  --sidebar-width: 240px;
+  
+  }
+  .main-content{
+    top: 0;
+    position: absolute;
+    left: var(--sidebar-width);
+    width: calc(100% - var(--sidebar-width));
+
+    height: 100vh;
+    background-color: black;
+    overflow-x: hidden;
+  }
+  @media (max-width:768px) {
+    :root{
+      --sidebar-width: 70px;
+      
+      }
+  }

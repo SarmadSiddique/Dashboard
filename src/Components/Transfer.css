@@ -1,0 +1,61 @@
+.transfers img {
+    border-radius: 50%;
+    width: 40px;
+
+
+}
+
+.heading span {
+    font-size: larger;
+    color: white;
+    font-weight: 600;
+}
+
+.Tcard {
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+    border-radius: 0.6rem;
+    padding: 1.3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transfers {
+    text-align: start;
+    /* display: none; */
+}
+
+.img {
+    margin-top: 10%;
+}
+
+.title {
+    margin-top: 10%;
+
+
+}
+
+.title2 {
+    font-weight: 900;
+    color: white
+}
+
+@media (max-width:1336px) {
+    .title .title2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+     .time {
+        display: none
+    }
+
+    .transfers .img {
+        display: none
+    }
+}

@@ -1,0 +1,40 @@
+.Gcard{
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+    border-radius: 0.6rem;
+    padding: 1.3rem 2rem;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.btn{
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.9rem;
+    margin-top:0.4rem ;
+    background-color: rgb(8, 8, 6);
+    color: white;
+}
+.chart{
+    height: 60%;
+}
+.rechart-default-tootip{
+    background-color: black;
+}
+@media (max-width:762px) {
+    .Gcard{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    height: auto;
+    }
+}
+@media (max-width:692px) {
+    .btn ,.ratio{
+        display: none;
+    }
+}
